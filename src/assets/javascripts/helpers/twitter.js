@@ -1,6 +1,6 @@
 /*
-    Please remember to also update the src/manifest.json file 
-    (content_scripts > matches, 'remove-twitter-sw.js') 
+    Please remember to also update the src/manifest.json file
+    (content_scripts > matches, 'remove-twitter-sw.js')
     when updating this list:
   */
 const targets = [
@@ -9,10 +9,11 @@ const targets = [
   "mobile.twitter.com",
   "pbs.twimg.com",
   "video.twimg.com",
+  "t.co",
 ];
 /*
-    Please remember to also update the 
-    src/assets/javascripts/remove-twitter-sw.js file 
+    Please remember to also update the
+    src/assets/javascripts/remove-twitter-sw.js file
     (const nitterInstances) when updating this list:
   */
 const redirects = [

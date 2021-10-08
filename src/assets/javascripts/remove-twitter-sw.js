@@ -16,7 +16,7 @@ const nitterInstances = [
   "https://nitter.cc",
   "https://nitter.vxempire.xyz",
   "https://nitter.unixfox.eu",
-  "https://bird.trom.tf"
+  "https://bird.trom.tf",
 ];
 
 let disableNitter;
